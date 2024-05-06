@@ -1,0 +1,54 @@
+/* Ajout d'une animation pour le background */
+body {
+    background-color: #f8f9fa; /* Nouvelle couleur de fond */
+    animation: changeBackground 5s infinite alternate; /* Animation du changement de couleur */
+}
+
+@keyframes changeBackground {
+    from { background-color: #f8f9fa; } /* Couleur de fond de départ */
+    to { background-color: #e9ecef; } /* Nouvelle couleur de fond */
+}
+
+/* Styles améliorés pour le formulaire */
+form {
+    background: #f0f0f0; /* Couleur de fond du formulaire */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* Ombre douce */
+    transition: all 0.3s ease-in-out; /* Transition fluide */
+}
+
+/* Styles améliorés pour les champs de formulaire */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.8);
+}
+
+/* Styles pour le titre */
+h2 {
+    text-align: center;
+    color: #3498db;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les paragraphes */
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+}
